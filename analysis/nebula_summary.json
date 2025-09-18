@@ -1,0 +1,116 @@
+{
+  "summary": {
+    "total_posts": 100,
+    "date_range": {
+      "start": "2025-01-01",
+      "end": "2025-04-10"
+    },
+    "totals": {
+      "views": 54203230,
+      "likes": 7586920,
+      "shares": 2393557,
+      "comments": 1133182
+    },
+    "average_conversion_rate": 0.0624
+  },
+  "shows": [
+    {
+      "Show_Name": "Vortex Renegades",
+      "total_views": 15603374,
+      "average_views": 624134.96,
+      "total_likes": 2415869,
+      "average_conversion_rate": 0.07,
+      "post_count": 25
+    },
+    {
+      "Show_Name": "Shadows of Eldritch Hollow",
+      "total_views": 14017626,
+      "average_views": 519171.33,
+      "total_likes": 1648101,
+      "average_conversion_rate": 0.05,
+      "post_count": 27
+    },
+    {
+      "Show_Name": "Crimson Echoes",
+      "total_views": 13026694,
+      "average_views": 723705.22,
+      "total_likes": 2363055,
+      "average_conversion_rate": 0.08,
+      "post_count": 18
+    },
+    {
+      "Show_Name": "Quantum Exile",
+      "total_views": 11555536,
+      "average_views": 385184.53,
+      "total_likes": 1159895,
+      "average_conversion_rate": 0.06,
+      "post_count": 30
+    }
+  ],
+  "platforms": [
+    {
+      "Platform": "TikTok",
+      "total_views": 28630068,
+      "average_views": 665815.53,
+      "median_length": 13.0
+    },
+    {
+      "Platform": "YouTube Shorts",
+      "total_views": 25573162,
+      "average_views": 448651.96,
+      "median_length": 17.0
+    }
+  ],
+  "top_posts": [
+    {
+      "Post_ID": "N079",
+      "Show_Name": "Crimson Echoes",
+      "Platform": "TikTok",
+      "Clip_Type": "Echo Effect Challenge",
+      "Views": 954537,
+      "Likes": 175437,
+      "Shares": 59734,
+      "Hashtags": "#HorrorShorts #CreepyClips #JumpScare"
+    },
+    {
+      "Post_ID": "N003",
+      "Show_Name": "Crimson Echoes",
+      "Platform": "TikTok",
+      "Clip_Type": "Echo Effect Challenge",
+      "Views": 872256,
+      "Likes": 151159,
+      "Shares": 47969,
+      "Hashtags": "#NebulaVisions #HorrorShorts #CreepyClips"
+    },
+    {
+      "Post_ID": "N025",
+      "Show_Name": "Crimson Echoes",
+      "Platform": "TikTok",
+      "Clip_Type": "Echo Effect Challenge",
+      "Views": 856204,
+      "Likes": 174884,
+      "Shares": 45907,
+      "Hashtags": "#HorrorShorts #JumpScare #NebulaVisions"
+    },
+    {
+      "Post_ID": "N015",
+      "Show_Name": "Crimson Echoes",
+      "Platform": "TikTok",
+      "Clip_Type": "Echo Effect Challenge",
+      "Views": 832842,
+      "Likes": 139157,
+      "Shares": 41058,
+      "Hashtags": "#HorrorShorts #JumpScare #CreepyClips"
+    },
+    {
+      "Post_ID": "N048",
+      "Show_Name": "Vortex Renegades",
+      "Platform": "TikTok",
+      "Clip_Type": "Stunt Breakdown",
+      "Views": 825794,
+      "Likes": 126783,
+      "Shares": 45592,
+      "Hashtags": "#Stunts #NebulaVisions #ActionPacked"
+    }
+  ]
+}

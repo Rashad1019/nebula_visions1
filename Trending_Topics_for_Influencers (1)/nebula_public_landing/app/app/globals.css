@@ -1,0 +1,162 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0a0a0a;
+  --foreground: #ffffff;
+  --neon-purple: #9945ff;
+  --neon-cyan: #00d4ff;
+  --neon-pink: #ff0080;
+  --neon-green: #00ff88;
+  --crimson: #dc143c;
+  --quantum-blue: #4444ff;
+  --vortex-orange: #ff6600;
+  --eldritch-green: #39ff14;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 500; /* Better base weight for readability */
+}
+
+/* Enhanced Typography Base */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+p, span, div {
+  font-weight: 500;
+}
+
+.text-sm, .text-xs {
+  font-weight: 600; /* Heavier weights for small text */
+}
+
+/* Improved text contrast classes */
+.text-readable-gray { color: #d1d5db; } /* Much lighter than text-gray-400 */
+.text-readable-light { color: #f3f4f6; } /* Better than text-gray-300 */
+
+/* Glitch Effects - Static */
+.glitch {
+  position: relative;
+}
+
+.glitch::before,
+.glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.glitch::before {
+  color: var(--neon-cyan);
+  z-index: -1;
+  transform: translate(-2px, -3px);
+  clip-path: inset(40% 0 61% 0);
+}
+
+.glitch::after {
+  color: var(--neon-pink);
+  z-index: -2;
+  transform: translate(2px, 5px);
+  clip-path: inset(25% 0 58% 0);
+}
+
+/* Neon Text Effect - Static - Enhanced Readability */
+.neon-text {
+  text-shadow: 
+    0 0 2px currentColor,
+    0 0 4px currentColor,
+    0 0 8px currentColor,
+    0 0 12px currentColor;
+  font-weight: 600; /* Ensure bold weight for neon text */
+}
+
+/* Cyberpunk Grid - Static */
+.cyber-grid {
+  background-image: 
+    linear-gradient(rgba(153, 69, 255, 0.1) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(153, 69, 255, 0.1) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Scanlines - Static */
+.scanlines {
+  position: relative;
+}
+
+.scanlines::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    transparent 50%,
+    rgba(0, 212, 255, 0.03) 51%,
+    rgba(0, 212, 255, 0.03) 52%,
+    transparent 53%
+  );
+  background-size: 100% 4px;
+  pointer-events: none;
+}
+
+/* Holographic Effect - Static - Enhanced Readability */
+.holographic {
+  background: linear-gradient(
+    45deg,
+    var(--neon-purple),
+    var(--neon-cyan),
+    var(--neon-pink),
+    var(--neon-green)
+  );
+  background-size: 400% 400%;
+  background-position: 50% 50%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 800; /* Extra bold for holographic text */
+  text-shadow: 0 0 1px rgba(255,255,255,0.3); /* Slight glow for readability */
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--neon-purple);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--neon-cyan);
+}
+
+/* Loading Animation - Static */
+.loading-dots::after {
+  content: '...';
+}

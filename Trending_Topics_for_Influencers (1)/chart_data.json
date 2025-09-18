@@ -1,0 +1,106 @@
+{
+  "show_performance": {
+    "shows": [
+      "Quantum Exile",
+      "Crimson Echoes",
+      "Shadows of Eldritch Hollow",
+      "Vortex Renegades"
+    ],
+    "views": [
+      11555536,
+      13026694,
+      14017626,
+      15603374
+    ]
+  },
+  "platform_engagement": {
+    "platforms": [
+      "TikTok",
+      "YouTube Shorts"
+    ],
+    "engagement_rates": [
+      0.2420229600388285,
+      0.16026540810676726
+    ]
+  },
+  "genre_distribution": {
+    "genres": [
+      "Action",
+      "Horror",
+      "Sci-Fi"
+    ],
+    "views": [
+      15603374,
+      27044320,
+      11555536
+    ]
+  },
+  "growth_projection": {
+    "months": [
+      "Month 1",
+      "Month 2",
+      "Month 3",
+      "Month 4",
+      "Month 5",
+      "Month 6"
+    ],
+    "views": [
+      1000000,
+      2500000,
+      4200000,
+      6800000,
+      8500000,
+      10200000
+    ]
+  },
+  "top_posts": {
+    "show_names": [
+      "Crimson Echoes",
+      "Crimson Echoes",
+      "Crimson Echoes",
+      "Crimson Echoes",
+      "Vortex Renegades",
+      "Crimson Echoes",
+      "Vortex Renegades",
+      "Crimson Echoes",
+      "Vortex Renegades",
+      "Vortex Renegades"
+    ],
+    "views": [
+      954537,
+      872256,
+      856204,
+      832842,
+      825794,
+      818296,
+      779832,
+      773060,
+      755315,
+      752614
+    ],
+    "genres": [
+      "Horror",
+      "Horror",
+      "Horror",
+      "Horror",
+      "Action",
+      "Horror",
+      "Action",
+      "Horror",
+      "Action",
+      "Action"
+    ],
+    "clip_types": [
+      "Echo Effect Challenge",
+      "Echo Effect Challenge",
+      "Echo Effect Challenge",
+      "Echo Effect Challenge",
+      "Stunt Breakdown",
+      "Echo Effect Challenge",
+      "Stunt Breakdown",
+      "Echo Effect Challenge",
+      "Stunt Breakdown",
+      "Stunt Breakdown"
+    ]
+  }
+}

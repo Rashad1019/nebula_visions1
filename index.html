@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nebula Visions Studios | Social Launch</title>
+  <style>
+    :root {
+      --bg-gradient: radial-gradient(circle at 20% 20%, rgba(115, 81, 255, 0.35), transparent 55%),
+                      radial-gradient(circle at 80% 0%, rgba(0, 255, 209, 0.25), transparent 45%),
+                      linear-gradient(135deg, #060922, #090b2e 50%, #0b111f 100%);
+      --card-bg: rgba(17, 24, 39, 0.75);
+      --accent: #6a5cff;
+      --accent-2: #00ffe1;
+      --text-primary: #f8fafc;
+      --text-muted: #94a3b8;
+      --border: rgba(148, 163, 184, 0.25);
+      --shadow: 0 10px 40px rgba(17, 24, 39, 0.45);
+      font-size: 16px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      color: var(--text-primary);
+      background: var(--bg-gradient);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    header.hero {
+      position: relative;
+      padding: 4rem 1.5rem 5rem;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    header.hero::before,
+    header.hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      opacity: 0.2;
+      background: radial-gradient(circle, rgba(0, 255, 225, 0.4) 0%, transparent 55%);
+      filter: blur(120px);
+      pointer-events: none;
+    }
+
+    header.hero::after {
+      background: radial-gradient(circle, rgba(106, 92, 255, 0.45) 0%, transparent 60%);
+      transform: translateY(40%);
+    }
+
+    .hero-content {
+      position: relative;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 2.5rem;
+      border-radius: 28px;
+      border: 1px solid var(--border);
+      background: linear-gradient(140deg, rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.45));
+      box-shadow: var(--shadow);
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.35rem 1.25rem;
+      border-radius: 999px;
+      background: rgba(106, 92, 255, 0.18);
+      color: var(--accent-2);
+      font-size: 0.9rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: clamp(2.5rem, 4vw, 4rem);
+      margin: 1.5rem 0 1rem;
+      line-height: 1.1;
+      letter-spacing: 0.02em;
+      text-shadow: 0 10px 30px rgba(106, 92, 255, 0.35);
+    }
+
+    .hero-subtitle {
+      max-width: 720px;
+      margin: 0 auto 2rem;
+      color: var(--text-muted);
+      font-size: 1.1rem;
+    }
+
+    .cta-group {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .cta-group a {
+      padding: 0.85rem 1.75rem;
+      border-radius: 999px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      transition: transform 200ms ease, box-shadow 200ms ease, background 200ms ease;
+    }
+
+    .cta-primary {
+      background: linear-gradient(120deg, var(--accent), var(--accent-2));
+      color: #050712;
+      box-shadow: 0 12px 35px rgba(0, 255, 225, 0.35);
+    }
+
+    .cta-primary:hover {
+      transform: translateY(-3px);
+    }
+
+    .cta-secondary {
+      border: 1px solid var(--border);
+      background: rgba(15, 23, 42, 0.65);
+      color: var(--text-primary);
+    }
+
+    main {
+      padding: 0 1.5rem 4rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    section {
+      margin-top: 4rem;
+    }
+
+    .section-heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .section-heading h2 {
+      font-size: clamp(1.8rem, 3vw, 2.6rem);
+      margin: 0;
+      letter-spacing: 0.01em;
+    }
+
+    .section-heading p {
+      color: var(--text-muted);
+      max-width: 480px;
+      margin: 0;
+    }
+
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.25rem;
+    }
+
+    .metric-card {
+      padding: 1.75rem;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      background: var(--card-bg);
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .metric-card::after {
+      content: "";
+      position: absolute;
+      inset: -40% -10% 60% 60%;
+      background: radial-gradient(circle, rgba(106, 92, 255, 0.25) 0%, transparent 65%);
+      opacity: 0;
+      transition: opacity 200ms ease;
+    }
+
+    .metric-card:hover::after {
+      opacity: 1;
+    }
+
+    .metric-label {
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .metric-value {
+      font-size: clamp(1.75rem, 3vw, 2.5rem);
+      font-weight: 700;
+      margin: 0.75rem 0 0.25rem;
+    }
+
+    .metric-note {
+      color: var(--text-muted);
+      margin: 0;
+      font-size: 0.9rem;
+    }
+
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      border-radius: 22px;
+      border: 1px solid var(--border);
+      background: linear-gradient(145deg, rgba(15, 23, 42, 0.9), rgba(15, 23, 42, 0.55));
+      padding: 1.75rem;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::after {
+      content: "";
+      position: absolute;
+      inset: auto -20% -40% -20%;
+      height: 80%;
+      background: radial-gradient(circle, rgba(0, 255, 225, 0.18) 0%, transparent 65%);
+      transform: translateY(30%);
+      opacity: 0;
+      transition: opacity 200ms ease;
+    }
+
+    .card:hover::after {
+      opacity: 1;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      align-self: flex-start;
+      padding: 0.35rem 0.85rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      background: rgba(106, 92, 255, 0.25);
+      color: var(--accent-2);
+    }
+
+    .card h3 {
+      margin: 0;
+      font-size: 1.4rem;
+      letter-spacing: 0.02em;
+    }
+
+    .card p {
+      margin: 0;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+
+    .mini-metric {
+      display: flex;
+      gap: 0.5rem;
+      align-items: baseline;
+      font-size: 0.9rem;
+    }
+
+    .mini-metric strong {
+      color: var(--accent-2);
+    }
+
+    .top-posts {
+      display: grid;
+      gap: 1rem;
+    }
+
+    .top-post {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 0.75rem 1.5rem;
+      padding: 1.5rem;
+      border-radius: 18px;
+      border: 1px solid var(--border);
+      background: rgba(12, 18, 35, 0.85);
+      box-shadow: var(--shadow);
+    }
+
+    .top-post strong {
+      font-size: 1.1rem;
+    }
+
+    .top-post span {
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .hashtags {
+      color: var(--accent-2);
+      font-size: 0.9rem;
+    }
+
+    .countdown {
+      display: flex;
+      gap: 1.25rem;
+      justify-content: center;
+      margin-top: 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    .countdown .time-block {
+      min-width: 110px;
+      padding: 1rem;
+      border-radius: 18px;
+      border: 1px solid var(--border);
+      background: rgba(12, 18, 35, 0.8);
+      text-align: center;
+    }
+
+    .time-value {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--accent-2);
+    }
+
+    footer {
+      margin-top: 5rem;
+      padding: 2rem 1rem;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+
+    @media (max-width: 720px) {
+      .hero-content {
+        padding: 2rem 1.5rem;
+      }
+
+      header.hero {
+        padding-top: 3rem;
+      }
+
+      .section-heading {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .top-post {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <span class="eyebrow">Nebula Visions Studios</span>
+      <h1>Nebula Visions Invades Your Feed</h1>
+      <p class="hero-subtitle">
+        We craft genre-bending horror, sci-fi, and action that leap from prestige television to viral short-form sensations. Our 100-post sprint primes TikTok and YouTube Shorts audiences for liftoff — and we have the data to prove it.
+      </p>
+      <div class="cta-group">
+        <a class="cta-primary" href="nebula_visions_social_dataset.csv">Download Social Dataset</a>
+        <a class="cta-secondary" href="#launch-plan">View Launch Playbook</a>
+      </div>
+      <div class="countdown" id="countdown">
+        <div class="time-block">
+          <div class="time-value" id="days">--</div>
+          <span>Days</span>
+        </div>
+        <div class="time-block">
+          <div class="time-value" id="hours">--</div>
+          <span>Hours</span>
+        </div>
+        <div class="time-block">
+          <div class="time-value" id="minutes">--</div>
+          <span>Minutes</span>
+        </div>
+        <div class="time-block">
+          <div class="time-value" id="seconds">--</div>
+          <span>Seconds</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="section-heading">
+        <h2>Campaign Pulse</h2>
+        <p>
+          Our edit suite has already churned out 100 launch-ready shorts spanning January to April 2025. Together, they deliver unstoppable momentum and a 6.24% conversion rate into long-form viewing experiences.
+        </p>
+      </div>
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <span class="metric-label">Total Views</span>
+          <div class="metric-value">54,203,230</div>
+          <p class="metric-note">Scaled across horror, sci-fi, and action clips.</p>
+        </div>
+        <div class="metric-card">
+          <span class="metric-label">Total Engagements</span>
+          <div class="metric-value">9,111,659</div>
+          <p class="metric-note">Likes, shares, and comments fueling community buzz.</p>
+        </div>
+        <div class="metric-card">
+          <span class="metric-label">Average Conversion</span>
+          <div class="metric-value">6.24%</div>
+          <p class="metric-note">Short-form viewers who jump into full episodes.</p>
+        </div>
+        <div class="metric-card">
+          <span class="metric-label">Launch Timeline</span>
+          <div class="metric-value">Jan 01 → Apr 10</div>
+          <p class="metric-note">Daily drops prime the algorithm before premiere week.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <h2>Show Spotlights</h2>
+        <p>Four flagship series headline the Nebula roster. Each one is engineered for binge-worthy television and snackable short-form thrills.</p>
+      </div>
+      <div class="cards-grid">
+        <article class="card">
+          <span class="badge">Horror</span>
+          <h3>Shadows of Eldritch Hollow</h3>
+          <p>
+            Fog-laced streets, Lovecraftian rituals, and whispered lore hook fans in under 30 seconds. Episodes like “The Whispering Walls” and “Mirror Maze” are broken into micro-scares for Shorts.
+          </p>
+          <div class="mini-metric"><strong>Avg Views:</strong> 519k per post</div>
+          <div class="mini-metric"><strong>Signature Hook:</strong> POV hauntings &amp; lore teases</div>
+        </article>
+        <article class="card">
+          <span class="badge">Horror</span>
+          <h3>Crimson Echoes</h3>
+          <p>
+            A supernatural virus that weaponizes sound. Viral echo challenges and reaction-friendly reveals drive the highest engagement rate across the slate.
+          </p>
+          <div class="mini-metric"><strong>Avg Views:</strong> 724k per post</div>
+          <div class="mini-metric"><strong>Signature Hook:</strong> Echo Effect Challenges</div>
+        </article>
+        <article class="card">
+          <span class="badge">Sci-Fi</span>
+          <h3>Quantum Exile</h3>
+          <p>
+            Multiverse chases and timeline reversals deliver endless “what if?” loops. Teasers spotlight portal tech, identity twists, and cinematic VFX breakdowns.
+          </p>
+          <div class="mini-metric"><strong>Avg Views:</strong> 385k per post</div>
+          <div class="mini-metric"><strong>Signature Hook:</strong> Twist teasers &amp; tech explainers</div>
+        </article>
+        <article class="card">
+          <span class="badge">Action</span>
+          <h3>Vortex Renegades</h3>
+          <p>
+            Dimension-hopping operatives unleash stunt breakdowns, vortex-fueled chases, and pulse-pounding heists. The action fandom keeps replaying the biggest set pieces.
+          </p>
+          <div class="mini-metric"><strong>Avg Views:</strong> 624k per post</div>
+          <div class="mini-metric"><strong>Signature Hook:</strong> Stunt POVs &amp; mission teases</div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <h2>Platform Deep Dive</h2>
+        <p>Our dual-platform strategy customizes every clip for the algorithm it serves — from binge-ready loops on TikTok to cliffhanger arcs on YouTube Shorts.</p>
+      </div>
+      <div class="cards-grid">
+        <article class="card">
+          <span class="badge">TikTok</span>
+          <h3>28.6M Views / 665k Avg</h3>
+          <p>
+            13-second median runtime, jump-cut edits, and trend-native soundbeds keep horror and action fandoms glued to the For You Page. User stitches fuel organic reach.
+          </p>
+          <div class="mini-metric"><strong>Top Performer:</strong> Crimson Echoes Echo Effect Challenge</div>
+        </article>
+        <article class="card">
+          <span class="badge">YouTube Shorts</span>
+          <h3>25.6M Views / 449k Avg</h3>
+          <p>
+            17-second median runtime with lore-driven hooks, clean captions, and mid-video CTAs sending viewers to full-episode playlists.
+          </p>
+          <div class="mini-metric"><strong>Top Performer:</strong> Quantum Exile paradox teasers</div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <h2>Top Viral Clips</h2>
+        <p>Our hottest drops prove the formula: visceral horror clips lead virality, while action stunts surge in replays and shares.</p>
+      </div>
+      <div class="top-posts">
+        <div class="top-post">
+          <div>
+            <span>#1</span>
+            <strong>N079 · Crimson Echoes</strong>
+          </div>
+          <div>
+            <span>Platform</span>
+            <strong>TikTok</strong>
+          </div>
+          <div>
+            <span>Clip</span>
+            <strong>Echo Effect Challenge</strong>
+          </div>
+          <div>
+            <span>Stats</span>
+            <strong>954k views · 175k likes · 59k shares</strong>
+          </div>
+          <div class="hashtags">#HorrorShorts #CreepyClips #JumpScare</div>
+        </div>
+        <div class="top-post">
+          <div>
+            <span>#2</span>
+            <strong>N003 · Crimson Echoes</strong>
+          </div>
+          <div>
+            <span>Platform</span>
+            <strong>TikTok</strong>
+          </div>
+          <div>
+            <span>Clip</span>
+            <strong>Echo Effect Challenge</strong>
+          </div>
+          <div>
+            <span>Stats</span>
+            <strong>872k views · 151k likes · 48k shares</strong>
+          </div>
+          <div class="hashtags">#NebulaVisions #HorrorShorts #CreepyClips</div>
+        </div>
+        <div class="top-post">
+          <div>
+            <span>#3</span>
+            <strong>N025 · Crimson Echoes</strong>
+          </div>
+          <div>
+            <span>Platform</span>
+            <strong>TikTok</strong>
+          </div>
+          <div>
+            <span>Clip</span>
+            <strong>Echo Effect Challenge</strong>
+          </div>
+          <div>
+            <span>Stats</span>
+            <strong>856k views · 175k likes · 46k shares</strong>
+          </div>
+          <div class="hashtags">#HorrorShorts #JumpScare #NebulaVisions</div>
+        </div>
+        <div class="top-post">
+          <div>
+            <span>#4</span>
+            <strong>N015 · Crimson Echoes</strong>
+          </div>
+          <div>
+            <span>Platform</span>
+            <strong>TikTok</strong>
+          </div>
+          <div>
+            <span>Clip</span>
+            <strong>Echo Effect Challenge</strong>
+          </div>
+          <div>
+            <span>Stats</span>
+            <strong>833k views · 139k likes · 41k shares</strong>
+          </div>
+          <div class="hashtags">#HorrorShorts #JumpScare #CreepyClips</div>
+        </div>
+        <div class="top-post">
+          <div>
+            <span>#5</span>
+            <strong>N048 · Vortex Renegades</strong>
+          </div>
+          <div>
+            <span>Platform</span>
+            <strong>TikTok</strong>
+          </div>
+          <div>
+            <span>Clip</span>
+            <strong>Stunt Breakdown</strong>
+          </div>
+          <div>
+            <span>Stats</span>
+            <strong>826k views · 127k likes · 46k shares</strong>
+          </div>
+          <div class="hashtags">#Stunts #NebulaVisions #ActionPacked</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="launch-plan">
+      <div class="section-heading">
+        <h2>Launch Playbook</h2>
+        <p>We blend data, creative, and community to dominate the short-form spotlight the moment Nebula Visions lands.</p>
+      </div>
+      <div class="cards-grid">
+        <article class="card">
+          <span class="badge">Cadence</span>
+          <h3>3-5 Drops per Platform, Weekly</h3>
+          <p>We rotate horror, sci-fi, and action beats to keep feeds fresh while syncing peak posting windows by region.</p>
+          <div class="mini-metric"><strong>Goal:</strong> Sustain a 10%+ engagement rate across launch month.</div>
+        </article>
+        <article class="card">
+          <span class="badge">Community</span>
+          <h3>Fan Challenges &amp; Live Sessions</h3>
+          <p>UGC duets, cast reactions, and Q&amp;A livestreams extend the momentum and deepen fan attachment to each universe.</p>
+          <div class="mini-metric"><strong>Conversion Target:</strong> 7% of Shorts viewers to full episodes.</div>
+        </article>
+        <article class="card">
+          <span class="badge">Data Ops</span>
+          <h3>Real-Time Optimization</h3>
+          <p>Daily dashboards track view velocity, retention, and CTA clicks. Winning clips get recuts within 24 hours.</p>
+          <div class="mini-metric"><strong>Toolset:</strong> CapCut, Premiere Pro, and in-house analytics.</div>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <h2>Projected Weekly Impact</h2>
+        <p>Our modeled performance benchmarks show how each show-category pairing powers sustained growth.</p>
+      </div>
+      <div class="cards-grid">
+        <article class="card">
+          <span class="badge">YouTube Shorts</span>
+          <h3>Shadows of Eldritch Hollow</h3>
+          <p>Jump scare clips projected at 500k weekly views, 12% engagement, and 5% conversion into full episodes.</p>
+        </article>
+        <article class="card">
+          <span class="badge">TikTok</span>
+          <h3>Crimson Echoes</h3>
+          <p>Echo Effect Challenges forecast 750k weekly views, 18% engagement, and an 8% conversion rate.</p>
+        </article>
+        <article class="card">
+          <span class="badge">YouTube Shorts</span>
+          <h3>Quantum Exile</h3>
+          <p>Twist teasers aim for 400k weekly views with a 10% engagement rate and 6% conversion.</p>
+        </article>
+        <article class="card">
+          <span class="badge">TikTok</span>
+          <h3>Vortex Renegades</h3>
+          <p>Stunt breakdowns clock 600k weekly views, 15% engagement, and 7% conversion to episodes.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-heading">
+        <h2>Ready to Collaborate?</h2>
+        <p>Access the full dataset, dashboards, and creative toolkits to sync Nebula Visions with your next campaign.</p>
+      </div>
+      <div class="cards-grid">
+        <article class="card">
+          <span class="badge">Dataset</span>
+          <h3>100 Launch-Ready Posts</h3>
+          <p>Download the CSV for detailed post metadata, performance metrics, hashtags, and conversion rates.</p>
+          <div class="mini-metric"><strong>File:</strong> <a href="nebula_visions_social_dataset.csv">nebula_visions_social_dataset.csv</a></div>
+        </article>
+        <article class="card">
+          <span class="badge">Insights</span>
+          <h3>Analytics Snapshot</h3>
+          <p>See top shows, platform splits, and viral clips parsed in our JSON insights file.</p>
+          <div class="mini-metric"><strong>File:</strong> <a href="analysis/nebula_summary.json">analysis/nebula_summary.json</a></div>
+        </article>
+        <article class="card">
+          <span class="badge">Contact</span>
+          <h3>Launch with Us</h3>
+          <p>Join our partner list to receive creative briefs, ad specs, and early-access AR filters.</p>
+          <div class="mini-metric"><strong>Email:</strong> <a href="mailto:alliances@nebulavisions.studio">alliances@nebulavisions.studio</a></div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Nebula Visions Studios. Engineered for viral storytelling across every universe.
+  </footer>
+
+  <script>
+    const targetDate = new Date('2025-10-01T19:00:00Z').getTime();
+    const countdownEls = {
+      days: document.getElementById('days'),
+      hours: document.getElementById('hours'),
+      minutes: document.getElementById('minutes'),
+      seconds: document.getElementById('seconds'),
+    };
+
+    function updateCountdown() {
+      const now = new Date().getTime();
+      const diff = targetDate - now;
+
+      if (diff <= 0) {
+        countdownEls.days.textContent = '00';
+        countdownEls.hours.textContent = '00';
+        countdownEls.minutes.textContent = '00';
+        countdownEls.seconds.textContent = '00';
+        return;
+      }
+
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+      countdownEls.days.textContent = String(days).padStart(2, '0');
+      countdownEls.hours.textContent = String(hours).padStart(2, '0');
+      countdownEls.minutes.textContent = String(minutes).padStart(2, '0');
+      countdownEls.seconds.textContent = String(seconds).padStart(2, '0');
+    }
+
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+  </script>
+</body>
+</html>

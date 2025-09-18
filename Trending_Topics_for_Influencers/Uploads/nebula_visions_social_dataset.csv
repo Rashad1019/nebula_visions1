@@ -1,0 +1,101 @@
+Post_ID,Show_Name,Platform,Genre,Clip_Type,Length_s,Views,Likes,Shares,Comments,Upload_Date,Hashtags,Conversion_Rate
+N001,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,19,461532,50445,13982,5980,2025-01-01,#NebulaVisions #SciFiTwist #Quantum,0.065
+N002,Crimson Echoes,TikTok,Horror,Echo Effect Challenge,15,662964,114554,43375,18091,2025-01-02,#JumpScare #CreepyClips #NebulaVisions,0.096
+N003,Crimson Echoes,TikTok,Horror,Echo Effect Challenge,14,872256,151159,47969,23948,2025-01-03,#NebulaVisions #HorrorShorts #CreepyClips,0.103
+N004,Vortex Renegades,TikTok,Action,Stunt Breakdown,12,621332,102042,29736,15833,2025-01-04,#Stunts #ActionPacked #NebulaVisions,0.054
+N005,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,8,565282,72197,26669,13100,2025-01-05,#NebulaVisions #JumpScare #HorrorShorts,0.048
+N006,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,20,255342,29230,8768,5080,2025-01-06,#NebulaVisions #SciFiTwist #Quantum,0.051
+N007,Crimson Echoes,TikTok,Horror,Echo Effect Challenge,18,748766,137684,52200,15099,2025-01-07,#NebulaVisions #CreepyClips #JumpScare,0.073
+N008,Vortex Renegades,TikTok,Action,Stunt Breakdown,9,779832,134351,39021,19521,2025-01-08,#NebulaVisions #EpicFight #ActionPacked,0.072
+N009,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,22,446083,44177,16850,7429,2025-01-09,#SciFiTwist #Quantum #Multiverse,0.044
+N010,Vortex Renegades,TikTok,Action,Stunt Breakdown,9,639573,89749,27135,12197,2025-01-10,#EpicFight #ActionPacked #NebulaVisions,0.075
+N011,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,7,507846,65082,17952,12065,2025-01-11,#JumpScare #NebulaVisions #HorrorShorts,0.037
+N012,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,11,423831,56173,14279,8461,2025-01-12,#JumpScare #CreepyClips #NebulaVisions,0.049
+N013,Vortex Renegades,TikTok,Action,Stunt Breakdown,11,642722,104663,27126,14818,2025-01-13,#NebulaVisions #ActionPacked #EpicFight,0.07
+N014,Vortex Renegades,TikTok,Action,Stunt Breakdown,15,749525,121921,32735,15209,2025-01-14,#NebulaVisions #ActionPacked #EpicFight,0.072
+N015,Crimson Echoes,TikTok,Horror,Echo Effect Challenge,18,832842,139157,41058,25039,2025-01-15,#HorrorShorts #JumpScare #CreepyClips,0.09
+N016,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,13,539172,61003,17594,8023,2025-01-16,#HorrorShorts #NebulaVisions #JumpScare,0.05
+N017,Crimson Echoes,TikTok,Horror,Echo Effect Challenge,18,696263,131855,41259,14220,2025-01-17,#JumpScare #NebulaVisions #CreepyClips,0.07
+N018,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,22,342922,39039,9442,5937,2025-01-18,#Quantum #NebulaVisions #Multiverse,0.067
+N019,Vortex Renegades,TikTok,Action,Stunt Breakdown,12,688870,108653,31220,12382,2025-01-19,#Stunts #ActionPacked #NebulaVisions,0.072
+N020,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,17,260481,29585,7543,5103,2025-01-20,#SciFiTwist #NebulaVisions #Quantum,0.073
+N021,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,17,465594,45249,14099,7530,2025-01-21,#SciFiTwist #NebulaVisions #Quantum,0.065
+N022,Vortex Renegades,TikTok,Action,Stunt Breakdown,9,617917,105934,29258,20606,2025-01-22,#EpicFight #NebulaVisions #ActionPacked,0.05
+N023,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,7,611800,76186,23840,14286,2025-01-23,#JumpScare #CreepyClips #NebulaVisions,0.043
+N024,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,20,374554,33849,11450,6128,2025-01-24,#NebulaVisions #SciFiTwist #Quantum,0.074
+N025,Crimson Echoes,TikTok,Horror,Echo Effect Challenge,12,856204,174884,45907,31855,2025-01-25,#HorrorShorts #JumpScare #NebulaVisions,0.091
+N026,Vortex Renegades,TikTok,Action,Stunt Breakdown,15,633582,91938,28076,13340,2025-01-26,#NebulaVisions #EpicFight #ActionPacked,0.076
+N027,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,8,484547,56861,16164,9145,2025-01-27,#NebulaVisions #JumpScare #CreepyClips,0.054
+N028,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,10,494370,61657,20662,10303,2025-01-28,#NebulaVisions #HorrorShorts #JumpScare,0.059
+N029,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,11,480798,52553,18406,7423,2025-01-29,#NebulaVisions #JumpScare #HorrorShorts,0.043
+N030,Crimson Echoes,TikTok,Horror,Echo Effect Challenge,17,653195,131378,35873,20832,2025-01-30,#CreepyClips #HorrorShorts #JumpScare,0.1
+N031,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,19,498047,50756,16439,7474,2025-01-31,#Quantum #Multiverse #SciFiTwist,0.052
+N032,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,19,392050,38269,10805,4035,2025-02-01,#Quantum #SciFiTwist #Multiverse,0.055
+N033,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,20,367164,41447,11589,4626,2025-02-02,#Quantum #NebulaVisions #SciFiTwist,0.052
+N034,Crimson Echoes,TikTok,Horror,Echo Effect Challenge,13,667204,112306,34502,14054,2025-02-03,#NebulaVisions #CreepyClips #JumpScare,0.06
+N035,Vortex Renegades,TikTok,Action,Stunt Breakdown,11,428324,65632,24452,7188,2025-02-04,#EpicFight #NebulaVisions #ActionPacked,0.062
+N036,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,23,407375,37972,11963,5757,2025-02-05,#SciFiTwist #NebulaVisions #Quantum,0.076
+N037,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,13,575593,68704,18702,11081,2025-02-06,#CreepyClips #NebulaVisions #JumpScare,0.055
+N038,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,23,439753,43841,14087,7830,2025-02-07,#SciFiTwist #Quantum #NebulaVisions,0.06
+N039,Vortex Renegades,TikTok,Action,Stunt Breakdown,15,592623,91369,25368,13575,2025-02-08,#NebulaVisions #EpicFight #ActionPacked,0.057
+N040,Vortex Renegades,TikTok,Action,Stunt Breakdown,13,755315,117929,42891,16383,2025-02-09,#ActionPacked #Stunts #EpicFight,0.063
+N041,Crimson Echoes,TikTok,Horror,Echo Effect Challenge,12,722956,115240,38151,17390,2025-02-10,#NebulaVisions #CreepyClips #JumpScare,0.104
+N042,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,19,422846,48133,16491,7558,2025-02-11,#Multiverse #SciFiTwist #Quantum,0.056
+N043,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,7,451198,51385,18960,6268,2025-02-12,#JumpScare #CreepyClips #HorrorShorts,0.063
+N044,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,23,372740,37294,12053,4254,2025-02-13,#Quantum #NebulaVisions #Multiverse,0.066
+N045,Vortex Renegades,TikTok,Action,Stunt Breakdown,10,488365,74108,25634,13609,2025-02-14,#NebulaVisions #EpicFight #Stunts,0.079
+N046,Vortex Renegades,TikTok,Action,Stunt Breakdown,14,490744,79240,21169,9740,2025-02-15,#ActionPacked #Stunts #EpicFight,0.069
+N047,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,23,488356,46695,15665,7233,2025-02-16,#SciFiTwist #NebulaVisions #Multiverse,0.073
+N048,Vortex Renegades,TikTok,Action,Stunt Breakdown,12,825794,126783,45592,15797,2025-02-17,#Stunts #NebulaVisions #ActionPacked,0.077
+N049,Crimson Echoes,TikTok,Horror,Echo Effect Challenge,16,589102,117601,30976,19110,2025-02-18,#NebulaVisions #CreepyClips #JumpScare,0.063
+N050,Vortex Renegades,TikTok,Action,Stunt Breakdown,10,564418,97135,32621,14348,2025-02-19,#EpicFight #NebulaVisions #ActionPacked,0.084
+N051,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,21,396780,40015,11284,6492,2025-02-20,#Quantum #Multiverse #SciFiTwist,0.052
+N052,Crimson Echoes,TikTok,Horror,Echo Effect Challenge,13,726008,115535,37197,14173,2025-02-21,#CreepyClips #HorrorShorts #JumpScare,0.067
+N053,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,12,536503,61803,18203,9429,2025-02-22,#CreepyClips #JumpScare #HorrorShorts,0.041
+N054,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,22,194015,16968,7068,2243,2025-02-23,#NebulaVisions #SciFiTwist #Multiverse,0.067
+N055,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,19,538936,55815,16382,10354,2025-02-24,#Quantum #Multiverse #SciFiTwist,0.054
+N056,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,11,629752,65005,22948,11013,2025-02-25,#JumpScare #CreepyClips #NebulaVisions,0.046
+N057,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,9,375961,44711,12778,6815,2025-02-26,#NebulaVisions #JumpScare #CreepyClips,0.062
+N058,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,13,507295,67653,16459,9189,2025-02-27,#NebulaVisions #JumpScare #HorrorShorts,0.044
+N059,Crimson Echoes,TikTok,Horror,Echo Effect Challenge,14,603178,122508,36421,23763,2025-02-28,#CreepyClips #NebulaVisions #JumpScare,0.057
+N060,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,22,258566,29263,8117,3411,2025-03-01,#SciFiTwist #Quantum #Multiverse,0.076
+N061,Crimson Echoes,TikTok,Horror,Echo Effect Challenge,13,485626,85074,28875,10386,2025-03-02,#CreepyClips #HorrorShorts #NebulaVisions,0.096
+N062,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,12,368691,39636,15967,6158,2025-03-03,#JumpScare #NebulaVisions #HorrorShorts,0.044
+N063,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,19,396205,35228,10673,6685,2025-03-04,#Multiverse #SciFiTwist #NebulaVisions,0.044
+N064,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,18,323104,29945,9216,5500,2025-03-05,#NebulaVisions #SciFiTwist #Quantum,0.071
+N065,Vortex Renegades,TikTok,Action,Stunt Breakdown,10,574087,75009,25435,8191,2025-03-06,#ActionPacked #EpicFight #Stunts,0.055
+N066,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,18,414354,38901,12351,6832,2025-03-07,#NebulaVisions #Quantum #Multiverse,0.053
+N067,Vortex Renegades,TikTok,Action,Stunt Breakdown,9,429635,55363,21499,10486,2025-03-08,#ActionPacked #EpicFight #Stunts,0.082
+N068,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,19,441540,43894,16994,6051,2025-03-09,#NebulaVisions #SciFiTwist #Quantum,0.06
+N069,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,11,523898,68842,19833,10688,2025-03-10,#CreepyClips #NebulaVisions #HorrorShorts,0.037
+N070,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,23,345698,35015,11810,5373,2025-03-11,#Multiverse #SciFiTwist #NebulaVisions,0.043
+N071,Crimson Echoes,TikTok,Horror,Echo Effect Challenge,16,818296,134264,42538,23329,2025-03-12,#CreepyClips #NebulaVisions #JumpScare,0.102
+N072,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,21,403944,39327,13947,5477,2025-03-13,#Quantum #SciFiTwist #Multiverse,0.077
+N073,Crimson Echoes,TikTok,Horror,Echo Effect Challenge,18,637550,124976,36470,14782,2025-03-14,#HorrorShorts #NebulaVisions #CreepyClips,0.072
+N074,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,7,569731,71722,24544,11968,2025-03-15,#JumpScare #NebulaVisions #HorrorShorts,0.047
+N075,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,19,402418,38426,12991,5929,2025-03-16,#Quantum #Multiverse #SciFiTwist,0.057
+N076,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,18,262606,26075,8018,3452,2025-03-17,#SciFiTwist #Quantum #NebulaVisions,0.057
+N077,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,11,578243,67650,26129,8126,2025-03-18,#CreepyClips #JumpScare #HorrorShorts,0.064
+N078,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,13,405580,46558,15183,8018,2025-03-19,#JumpScare #NebulaVisions #HorrorShorts,0.049
+N079,Crimson Echoes,TikTok,Horror,Echo Effect Challenge,16,954537,175437,59734,21383,2025-03-20,#HorrorShorts #CreepyClips #JumpScare,0.064
+N080,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,7,733429,82923,24542,15729,2025-03-21,#HorrorShorts #JumpScare #NebulaVisions,0.043
+N081,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,10,463599,47904,17658,7847,2025-03-22,#HorrorShorts #JumpScare #NebulaVisions,0.062
+N082,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,13,516058,57291,16885,10063,2025-03-23,#HorrorShorts #CreepyClips #JumpScare,0.038
+N083,Crimson Echoes,TikTok,Horror,Echo Effect Challenge,13,726687,132350,50623,14661,2025-03-24,#CreepyClips #HorrorShorts #NebulaVisions,0.068
+N084,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,13,540266,62229,22910,11602,2025-03-25,#NebulaVisions #CreepyClips #HorrorShorts,0.042
+N085,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,17,436362,40169,12244,5365,2025-03-26,#NebulaVisions #SciFiTwist #Multiverse,0.065
+N086,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,7,485155,53283,19745,9522,2025-03-27,#NebulaVisions #CreepyClips #JumpScare,0.037
+N087,Vortex Renegades,TikTok,Action,Stunt Breakdown,13,669082,102857,35080,16475,2025-03-28,#NebulaVisions #EpicFight #Stunts,0.054
+N088,Crimson Echoes,TikTok,Horror,Echo Effect Challenge,15,773060,147093,37130,17760,2025-03-29,#JumpScare #HorrorShorts #CreepyClips,0.059
+N089,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,11,607842,63710,26531,9974,2025-03-30,#NebulaVisions #HorrorShorts #CreepyClips,0.036
+N090,Vortex Renegades,TikTok,Action,Stunt Breakdown,14,752614,103130,39058,13375,2025-03-31,#EpicFight #Stunts #ActionPacked,0.076
+N091,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,23,241591,21727,7761,3537,2025-04-01,#Multiverse #SciFiTwist #Quantum,0.049
+N092,Vortex Renegades,TikTok,Action,Stunt Breakdown,15,675806,99654,33978,15395,2025-04-02,#Stunts #ActionPacked #NebulaVisions,0.075
+N093,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,9,472608,64692,15242,9236,2025-04-03,#HorrorShorts #CreepyClips #NebulaVisions,0.044
+N094,Vortex Renegades,TikTok,Action,Stunt Breakdown,10,571065,82431,29380,12415,2025-04-04,#EpicFight #NebulaVisions #Stunts,0.059
+N095,Quantum Exile,YouTube Shorts,Sci-Fi,Twist Teaser,19,504578,53146,18067,9296,2025-04-05,#Multiverse #NebulaVisions #Quantum,0.05
+N096,Vortex Renegades,TikTok,Action,Stunt Breakdown,9,674376,104211,27412,17520,2025-04-06,#NebulaVisions #Stunts #ActionPacked,0.086
+N097,Vortex Renegades,TikTok,Action,Stunt Breakdown,11,561817,94260,27486,18300,2025-04-07,#EpicFight #NebulaVisions #ActionPacked,0.087
+N098,Vortex Renegades,TikTok,Action,Stunt Breakdown,13,493412,84409,24526,10355,2025-04-08,#ActionPacked #Stunts #NebulaVisions,0.068
+N099,Vortex Renegades,TikTok,Action,Stunt Breakdown,13,682544,103098,29705,12548,2025-04-09,#EpicFight #ActionPacked #Stunts,0.055
+N100,Shadows of Eldritch Hollow,YouTube Shorts,Horror,Jump Scare Clip,9,568578,60688,20772,10218,2025-04-10,#JumpScare #HorrorShorts #NebulaVisions,0.035
